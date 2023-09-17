@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" type="text/css" href="/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    <div>
-        <img src="">
+    <div class="header">
+        <img src="/assets/images/Colors-Amazon-Logo-768x307-removebg-preview.png">
     </div>
+    <div class="display">
+        <div class="watch-container">
+            <img class="watch" src="/assets/images/iOeUBV7.png">
+            <div class="watch-content">
+                <p id="MyClockDisplay" class="clock" onload="showTime()"></p>
+            </div>
+        </div>
+        <div class="text-container">
+            <div class="text-wrapper">
+                <h3 class="main heading">FitBit 19 - The Smartest Watch</h3>
+                <p class="desc">Stay on top of your fitness goals with built-in GPS and get a Daily Readiness Score with
+                    Premium that tells you what your body's ready for.◆</p>
+                <div class="color-wrapper">
+                    <h3 class="heading">Select Colour</h3>
+                    <span id="color1" style="background-color:#565681"></span>
+                    <span id="color2" style="background-color:#8a5362"></span>
+                    <span id="color3" style="background-color:#23211f"></span>
+                    <span id="color4" style="background-color:#ca3d22"></span>
+                    <span id="color5" style="background-color:#e9c7be"></span>
+                </div>
+                <div class="feature-wrapper">
+                    <h3 class="heading">Features</h3>
+                    <button id="time" class="feature">Time</button>
+                    <button id="heartrate" class="feature">Heart Rate</button>
+                </div>
+                <div class="buy-wrapper">
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </diV>
+    <script src="/index.js"></script>
 </body>
+
 </html>
